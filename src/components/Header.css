@@ -1,0 +1,20 @@
+.header {
+  background-color: #0a0832;
+}
+
+.header .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0,0,0,30%);
+}
+
+.header .link {
+  color: white;
+
+}
+
+.header .link:hover {
+  color: #bbb;
+}

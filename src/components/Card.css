@@ -1,0 +1,17 @@
+.MuiButton-contained.btn-add {
+  background-color: white;
+  border: 1px solid #444;
+  box-shadow: none;
+}
+
+.MuiButton-contained.btn-add:hover {
+  background-color: #0a0832;
+  color: white;
+  box-shadow: none;
+}
+
+.MuiTypography-body1.price {
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+}

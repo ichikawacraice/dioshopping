@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import cartActions from '../store/actions/cart';
+import './cart.css';
 
 const Cart = () => {
     const cart = useSelector(state => state.cart)
@@ -18,7 +19,7 @@ const Cart = () => {
 
     return(
         <>
-            <button type="button" className="btn btn-info" data-bs-toggle="modal" data-bs-target="#CartModal">
+            <button type="button" className="btn btn-info btn-cart" data-bs-toggle="modal" data-bs-target="#CartModal">
                 <span><i className="fas fa-shopping-cart"></i></span>
                 <span className="badge rounded-pill bg-info text-dark">
                     {cart.value}

@@ -1,0 +1,24 @@
+.btn-cart {
+  background-color: white;
+  border: 0;
+}
+
+.btn-cart .bg-info {
+  background-color: white !important;
+}
+
+.btn-cart:hover {
+  background-color: #cfff00;
+}
+
+.badge {
+  border: none;
+}
+
+.modal {
+  background-color: rgba(0,0,0,80%)
+}
+
+.modal-content {
+  border-radius: 10px;
+}

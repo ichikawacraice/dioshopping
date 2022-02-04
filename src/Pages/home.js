@@ -7,11 +7,15 @@ import Card from '../components/Card';
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
-      marginTop: '5px',
+        marginTop: '5px'
     },
     paper: {
       padding: theme.spacing(2),
-      textAlign: 'center'
+        textAlign: 'center',
+        boxShadow: 'none',
+        height: '100%',
+        backgroundColor: 'white',
+        marginRight: '20px'
     },
   }));
 
